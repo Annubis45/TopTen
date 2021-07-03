@@ -7,7 +7,7 @@
    $session=$_GET["session"];       
    $user=$_GET["user"];
    $debug=$_GET["debug"];                        
-   include 'config.php';
+   include 'conf.php';
                         
 
    $pattern = "/^[a-zA-Z0-9_\ ]*$/i";
